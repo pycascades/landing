@@ -1,0 +1,27 @@
+{% extends "page.html" %}
+{% block body %}
+<div class="container">
+</div>
+<div class="container">
+    <p class="title">All PyCascades Events<p>
+    <div class="panel">
+        <table class="table is-striped is-hoverable">
+            <thead>
+                    <th>Dates</th>
+                    <th>City</th>
+                    <th>Website</th>
+            </thead>
+            {% for year, conference in bag("conferences").items() %}
+            <tbody>
+                <tr>
+                    <td>{{ conference.dates }}</td>
+                    <td>{{ conference.city }}</td>
+                    <td><a href="https://{{ conference.website }}">{{ conference.website }}</a></td>
+                </tr>
+            </tbody>
+        {% endfor %}
+        </table>
+    </div>
+</div>
+    
+{% endblock %}

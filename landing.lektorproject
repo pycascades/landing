@@ -1,0 +1,9 @@
+[project]
+name = landing
+url = landing.pycascades.com
+
+[servers.ghpages]
+name = Production
+enabled = false
+default = yes
+target = ghpages://pycascades/landing?cname=landing.pycascades.com

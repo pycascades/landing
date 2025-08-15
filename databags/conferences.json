@@ -1,0 +1,72 @@
+{
+    "2026": {
+"city": "Vancouver, BC",
+"upcoming": true,
+"tickets_available": false,
+"website": "2026.pycascades.com",
+"dates": "March 21st-22nd, 2026"
+    },
+
+"2025": {
+"city": "Portland, OR",
+"upcoming": false,
+"tickets_available": false,
+"website": "2025.pycascades.com",
+"dates": "March 8th-9th, 2025"
+    },
+
+"2024": {
+"city": "Seattle, WA",
+"upcoming": false,
+"tickets_available": false,
+"website": "2024.pycascades.com",
+"dates": "April 5-8th, 2024"
+    },
+
+"2023": {
+"city": "Vancouver, BC",
+"upcoming": false,
+"tickets_available": false,
+"website": "2023.pycascades.com",
+"dates": "March 18th-20th, 2023"
+    },
+
+"2022": {
+"city": "Online",
+"upcoming": false,
+"tickets_available": false,
+"website": "2022.pycascades.com",
+"dates": "February 5th-6th, 2022"
+    },
+
+"2021": {
+"city": "Online",
+"upcoming": false,
+"tickets_available": false,
+"website": "2021.pycascades.com",
+"dates": "February 19th-21st, 2021"
+    },
+
+"2020": {
+"city": "Portland, OR",
+"upcoming": false,
+"tickets_available": false,
+"website": "2020.pycascades.com",
+"dates": "February 8th-9th, 2020"
+    },
+
+"2019": {
+"city": "Seattle, WA",
+"upcoming": false,
+"tickets_available": false,
+"website": "2019.pycascades.com",
+"dates": "February 22nd-23rd, 2019"
+    },
+
+"2018": {
+"city": "Vancouver, BC",
+"upcoming": false,
+"tickets_available": false,
+"website": "2018.pycascades.com",
+"dates": "January 22nd-23rd, 2018"
+    }}

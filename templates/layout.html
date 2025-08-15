@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html data-theme="light">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description"
+          content="Website for PyCascades 2026, a regional Python conference in the Pacific Northwest.">
+    <meta name="keywords" content="Python,PyCon,Conference,Seattle,PNW">
+
+    <meta property="og:url" content="https://www.pycascades.com">
+    <meta property="og:description"
+          content="Website for PyCascades 2026, a regional Python conference in the Pacific Northwest.">
+    <meta property="og:image" content="{{ '/static/header-logo.png'|asseturl }}">
+    <meta property="og:title" content="PyCascades 2026">
+    <link rel="shortcut icon" href="{{ '/static/favicon.ico'|asseturl }}"/>
+    <title>
+        {% block title %}
+            Welcome
+        {% endblock %}— PyCascades 2026
+    </title>
+
+    <link rel="stylesheet" href="{{ '/static/bulma.min.css'|asseturl }}"/>
+    <link rel="stylesheet" href="{{ '/static/style.css'|asseturl }}"/>
+</head>
+
+<body class="has-navbar-fixed-top">
+<nav class="navbar is-fixed-top is-primary">
+    <div class="navbar-brand">
+        <div class="navbar-item">
+            <a href="/" class="nav-link">
+                <div class="nav-icon">
+                    <img src="{{ '/static/header-logo.png'|asseturl }}" height="200"/>
+                </div>
+            </a>
+        </div>
+
+        <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div class="navbar-menu">
+        <div class="navbar-start">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <p class="navbar-link">
+                About
+                </p>
+
+                <div class="navbar-dropdown">
+                    {% for page in site.query('/about').filter(F.show_in_menu == True).order_by('sort_index', 'name') %}
+                        <a class="navbar-item" href="{{ page|url }}">{{ page.title }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <p class="navbar-link">Conferences</p>
+                <div class="navbar-dropdown">
+                    {% for year, conf in bag('conferences').items() %}
+                        {% if loop.index < 5 %}
+                        <a class="navbar-item" href="https://{{ conf.website }}">{{ year }} - {{ conf.city }}</a>
+                        {% endif %}
+                    {% endfor %}
+                    <a class="navbar-item" href="{{ '/past-events'|url }}">All past events</a>
+                </div>
+            </div>
+            {% if site.get('/news')._hidden == False %}
+                <a class="navbar-item navbar-link is-arrowless" href="{{ '/news'|url }}">News</a>
+            {% endif %}
+        {% for year, conference in bag("conferences").items() %}
+        {% if conference.upcoming %}
+            <a class="navbar-item navbar-link is-arrowless" href="https://{{conference.website}}">PyCascades {{ year}} is here!</a>
+    {% endif %}
+    {% endfor %}
+        </div>
+    </div>
+</nav>
+
+{% block body %}
+
+{% endblock %}
+
+<footer class="footer">
+    <div class="container">
+        <a href="{{ '/about/code-of-conduct'|url }}">Code of Conduct</a>
+        <span>|</span>
+        <a href="https://hachyderm.io/@pycascades">Mastodon</a>
+    </div>
+</footer>
+
+<div className="mastodon-verification">
+    <a rel="me" href="https://fosstodon.org/@pycascades"></a>
+    {% for organizer in site.query('/about/the-team').include_undiscoverable(true).filter(F.mastodon_url.startswith('https://')) %}
+        <a rel="me" href="{{ organizer.mastodon_url }}"></a>
+    {% endfor %}
+</div>
+</body>
+
+<script>
+    function openMenu() {
+        console.log('toggling classes');
+        document.querySelector('.navbar-burger').classList.toggle('is-active');
+        document.querySelector('.navbar-menu').classList.toggle('is-active');
+    }
+
+    document.querySelector('.navbar-burger').addEventListener('click', openMenu);
+</script>
+
+</html>
