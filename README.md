@@ -15,7 +15,7 @@ for example www.pycascades.com/2026.
 
 ## Development
 
-The site is built with [lector](https://getlektor.com).
+The site is built with [lektor](https://getlektor.com).
 For local development, install Lektor, for instance with `uv` or `pipx`, then run:
 
 ```
