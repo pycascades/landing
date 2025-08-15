@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html data-theme="light">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description"
+          content="Website for PyCascades, a regional Python conference in the Pacific Northwest.">
+    <meta name="keywords" content="Python,PyCon,Conference,Seattle,Vancouver,Portland,PNW">
+
+    <meta property="og:url" content="https://www.pycascades.com">
+    <meta property="og:description"
+          content="Website for PyCascades, a regional Python conference in the Pacific Northwest.">
+    <meta property="og:image" content="../../static/header-logo.png?h=a3c470d3">
+    <meta property="og:title" content="PyCascades">
+    <link rel="shortcut icon" href="../../static/favicon.ico?h=445ee393"/>
+    <title>
+        Hello, World— PyCascades
+    </title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"/>
+    <link rel="stylesheet" href="../../static/style.css?h=d62f7d04"/>
+</head>
+
+<body class="has-navbar-fixed-top">
+<nav class="navbar is-fixed-top is-primary">
+    <div class="navbar-brand">
+        <div class="navbar-item">
+            <a href="/" class="nav-link">
+                <div class="nav-icon">
+                    <img src="../../static/header-logo.png?h=a3c470d3" height="200"/>
+                </div>
+            </a>
+        </div>
+
+        <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div class="navbar-menu">
+        <div class="navbar-start">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <p class="navbar-link">
+                About
+                </p>
+
+                <div class="navbar-dropdown">
+                    
+                        <a class="navbar-item" href="../../about/code-of-conduct/">Code of Conduct</a>
+                    
+                </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <p class="navbar-link">Conferences</p>
+                <div class="navbar-dropdown">
+                    
+                        
+                        <a class="navbar-item" href="https://2026.pycascades.com">2026 - Vancouver, BC</a>
+                        
+                    
+                        
+                        <a class="navbar-item" href="https://2025.pycascades.com">2025 - Portland, OR</a>
+                        
+                    
+                        
+                        <a class="navbar-item" href="https://2024.pycascades.com">2024 - Seattle, WA</a>
+                        
+                    
+                        
+                        <a class="navbar-item" href="https://2023.pycascades.com">2023 - Vancouver, BC</a>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                    <a class="navbar-item" href="../../past-events/">All past events</a>
+                </div>
+            </div>
+            
+                <a class="navbar-item navbar-link is-arrowless" href="../">News</a>
+            
+        
+        
+            <a class="navbar-item navbar-link is-arrowless" href="https://2026.pycascades.com">PyCascades 2026 is here!</a>
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        </div>
+    </div>
+</nav>
+
+
+  
+<div class="section">
+  
+  <h2 class="title is-2">Hello, World</h2>
+  
+
+  <p class="mb-3 is-size-7">
+    written by
+    <span class="is-italic">
+      Angel &amp; Ben
+    </span>
+    on
+    <span class="is-italic">2024-05-18</span>
+  </p>
+
+  <div class="content">
+    <p>Hello PyCon attendees!</p>
+<p>You are the lucky ones that heard about PyCascades 2025 first!! Don’t you feel special?! 💜</p>
+
+    
+    <p>Next year PyCascades is going to be in Portland, OR. Back at Revolution Hall.
+Make sure you save <em>February 8th and 9th</em> to join us there for two days of fun
+and learning.</p>
+<p>If you’re interested in speaking our call for proposals opens August 11th. If
+you’re on the fence we offer proposal and speaker mentoring sessions starting in
+July. If you’d like to join us send an email to
+<a href="mailto:speaker-support@pycascades.com">speaker-support@pycascades.com</a>.
+Mentoring sessions do not commit you to submitting a proposal nor do they
+guarantee a speaker spot, but they’ll be fun and informative. Can’t wait to see
+you all there!!  (Well maybe not all 3000 of you, but as many as Rev Hall can
+hold.)</p>
+
+    
+  </div>
+</div>
+
+
+
+<footer class="footer">
+    <div class="container">
+        <a href="../../about/code-of-conduct/">Code of Conduct</a>
+        <span>|</span>
+        <a href="https://hachyderm.io/@pycascades">Mastodon</a>
+    </div>
+</footer>
+
+<div className="mastodon-verification">
+    <a rel="me" href="https://fosstodon.org/@pycascades"></a>
+    
+</div>
+</body>
+
+<script>
+    function openMenu() {
+        console.log('toggling classes');
+        document.querySelector('.navbar-burger').classList.toggle('is-active');
+        document.querySelector('.navbar-menu').classList.toggle('is-active');
+    }
+
+    document.querySelector('.navbar-burger').addEventListener('click', openMenu);
+</script>
+
+</html>
