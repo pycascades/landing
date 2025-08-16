@@ -7,3 +7,6 @@ name = Production
 enabled = false
 default = yes
 target = ghpages://pycascades/landing?cname=landing.pycascades.com
+
+[packages]
+lektor-tags = 0.5.2
