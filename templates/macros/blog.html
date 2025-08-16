@@ -1,7 +1,7 @@
 {% macro render_blog_post(post, from_index=false) %}
-<div class="section">
+<article class="box container is-max-desktop">
   {% if from_index %}
-  <h2 class="title is-2"><a href="{{ post | url }}">{{ post.title }}</a></h2>
+  <h2 class="title is-3"><a href="{{ post | url }}">{{ post.title }}</a></h2>
   {% else %}
   <h2 class="title is-2">{{ post.title }}</h2>
   {% endif %}
@@ -35,5 +35,5 @@
     {{ post.body }}
     {% endif %}
   </div>
-</div>
+</article>
 {% endmacro %}
