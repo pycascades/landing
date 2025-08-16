@@ -14,15 +14,14 @@
     </span>
     on
     <span class="is-italic">{{ post.pub_date }}</span>
-  </p>
-  <p class="mb-3 is-size-7">
   {% if post.tags %}
-    tagged with:
+      <div class="tags">
       {% for t in post.tags -%}
-          <a class="tag" href="{{ ('/news@tag/' ~ t)|url }}">
+          <a class="tag is-rounded" href="{{ ('/news@tag/' ~ t)|url }}">
             {{ t }}
           </a>
       {% endfor %}
+      </div>
   {% endif %}
   </p>
 
