@@ -5,11 +5,13 @@
 <div class="container">
     <p class="title">All PyCascades Events<p>
     <div class="panel">
-        <table class="table is-striped is-hoverable">
+        <table class="table is-striped is-hoverable is-fullwidth">
             <thead>
+                <tr>
                     <th>Dates</th>
                     <th>City</th>
                     <th>Website</th>
+                </tr>
             </thead>
             {% for year, conference in bag("conferences").items() %}
             <tbody>
