@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyCascades News</title><link href="https://landing.pycascades.com/news/" rel="alternate"/><link href="https://landing.pycascades.com/feed.xml" rel="self"/><id>urn:uuid:21a24aa9-6368-30f9-a2cf-d3c38776fee3</id><updated>2025-07-16T00:00:00Z</updated><author><name/></author><entry><title>We’re so Excited (and we just can’t hide it) 🎶</title><link href="https://landing.pycascades.com/news/pycascades-is-back/" rel="alternate"/><updated>2025-07-16T00:00:00Z</updated><author><name>Angel</name></author><id>urn:uuid:b3b4de3b-00ea-3fc2-880d-1810a150f95f</id><content type="html">&lt;h1&gt;TL;DR&lt;/h1&gt;
+&lt;p&gt;Just in case you don’t have time to read this lovingly-crafted article, here are the important bits.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📅 Saturday, March 21 &amp;amp; Sunday, March 22, 2026&lt;/li&gt;
+&lt;li&gt;📍 SFU Harbour Centre, Vancouver, BC&lt;/li&gt;
+&lt;li&gt;✨ Mentorship opportunities for CfPs and presentations&lt;/li&gt;
+&lt;li&gt;💥 Sponsorship opportunities available&lt;/li&gt;
+&lt;li&gt;👋 &lt;a href="www.pycascades.com"&gt;www.pycascades.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Join us in the Great White North&lt;/h1&gt;
+&lt;p&gt;We’re returning to Vancouver, BC (where it all began!). Join us for two days of talks at the SFU Harbour Centre. In addition to a jam-packed weekend, we’re working hard to bring back sprints this year. It’s not final yet, but keep your eyes peeled and your fingers crossed! Pro tip: Sign up for our newsletter to find out almost as soon as we do!
+Your First Talk Starts Here&lt;/p&gt;
+&lt;h1&gt;PyCascades is the perfect place to give your first talk because…&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Small audience, big support - Our attendees are welcoming and supportive&lt;/li&gt;
+&lt;li&gt;Mentorship - Get one-on-one help with your CfP, slides, and delivery&lt;/li&gt;
+&lt;li&gt;Regional focus - Low pressure, high impact&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Everyone is welcome!&lt;/em&gt;
+ Pro tip: Check out our article, &lt;a href="../cfp-review/"&gt;Proposal Review Process&lt;/a&gt;, for tips and tricks about the CfP process&lt;/p&gt;
+&lt;h1&gt;Why PyCascades Rocks!&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Awesome Pythonistas - meet in a cozy, laid-back setting. Friendly faces not faceless hordes!&lt;/li&gt;
+&lt;li&gt;Sweet stickers - because what’s a conference without laptop swag?&lt;/li&gt;
+&lt;li&gt;Open-source partners - swap ideas, contribute, or (like me!) accidentally join their team&lt;/li&gt;
+&lt;li&gt;Accessible speakers - no giant crowds. Ask questions, grab coffee, or geek out over that new Python feature; you know the one. (Or just say hi!)&lt;/li&gt;
+&lt;li&gt;Wonderful sponsors - Chat one-on-one about jobs, their best-kept software secrets, or what a DevRel actually does&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Speaking of Wonderful Sponsors…&lt;/h1&gt;
+&lt;p&gt;Your company could be one of those Wonderful Sponsors! At PyCascades, sponsors get something rare in today’s conference world: time, space, and quiet to actually talk with our engaged Python community. No shouting over expo hall noise, no distracted half-conversations, just real conversations with potential co-workers, users, or collaborators. Diamond Sponsors get exclusive perks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Everlasting visibility - Your logo on all recorded talks (forever on YouTube)&lt;/li&gt;
+&lt;li&gt;A chance to speak - 5 minutes during closing remarks&lt;/li&gt;
+&lt;li&gt;Top billing - Your logo and a brief message in conference communications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;💎 Only 2 available, get ‘em while they last! 💎&lt;/p&gt;
+&lt;h2&gt;“But how will we know it worked?”&lt;/h2&gt;
+&lt;p&gt;We’re happy to brainstorm meaningful success metrics - whether it’s quality hires, in-depth product feedback, or just being remembered as that cool company that actually listened.&lt;/p&gt;
+&lt;p&gt;Skip the expo hall chaos! Let’s talk: &lt;a href="mailto:sponsorship@pycascades.com"&gt;sponsorship@pycascades.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;😻 PS: We’re travelling back to the Lions 🏔️, watch out for kitties…&lt;/em&gt;&lt;/p&gt;
+</content></entry><entry><title>Proposal Review Process</title><link href="https://landing.pycascades.com/news/cfp-review/" rel="alternate"/><updated>2024-07-15T00:00:00Z</updated><author><name>Vishal</name></author><id>urn:uuid:ae82721e-fde7-3d09-9263-2069f3a16d91</id><content type="html">&lt;p&gt;You can view our video about the PyCascades 2025 Proposal Review Process which contains the same information as this blog post:&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/7bk3kLotB48?si=oPs7Bv7Zn0HzDp61" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://2025.pycascades.com/program/cfp/"&gt;Our CFP (Call for Proposals) opens on &lt;strong&gt;Sunday, August 11, 2024&lt;/strong&gt;&lt;/a&gt; and will close on &lt;strong&gt;September 20, 2024&lt;/strong&gt;. During our proposal review process, We usually have 4-6 volunteers (plus one of our co-Chairs and the Program Chair) who review and discuss every one of the talks submitted for consideration.&lt;/p&gt;
+&lt;h2&gt;The Proposal Review Process&lt;/h2&gt;
+&lt;p&gt;We start with an anonymous review of anonymous proposals. It’s important that you don’t include any personally identifiable information (such as your name or links to your personal website or socials) in your proposal other than in the &lt;strong&gt;Speaker Profile&lt;/strong&gt; section which is hidden from reviewers.&lt;/p&gt;
+&lt;p&gt;During this initial review, for each proposal, each reviewer will vote (Yes, No, Maybe) and give a brief (anonymized) rationale for their vote. We’ll then meet as a team to review each proposal and come to a consensus Yes/No vote. We allow for proposals where there is a split decision to stay in review until we come to a final consensus—this may take multiple discussion sessions. Once we have a final list of proposals (we like to make sure we have some extras) we review it a final time as a team and make any final changes.&lt;/p&gt;
+&lt;h2&gt;What are We Looking for in a Proposal?&lt;/h2&gt;
+&lt;p&gt;Generally speaking, we look to see that the speaker has provided enough detail for us to answer the following questions &lt;strong&gt;positively&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;What is the goal of this talk?&lt;/li&gt;
+&lt;li&gt;Is the outline structured in a way that achieves this goal?&lt;/li&gt;
+&lt;li&gt;Does it seem reasonable to give this talk within 25 minutes?&lt;/li&gt;
+&lt;li&gt;Would the conference attendees be interested in this talk?&lt;/li&gt;
+&lt;li&gt;Is the content of this talk accurate? &lt;/li&gt;
+&lt;li&gt;Does the content of this talk discriminate, stereotype or exclude any communities?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As you can imagine, much of this evaluation is subjective and prone to different biases that our reviewers hold. For this reason, we like to have a diverse set of volunteers reviewing the proposals. If you are interested in being a reviewer, please email &lt;a href="mailto:program@pycascades.com"&gt;program@pycascades.com&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;What Happens After the Review is Complete?&lt;/h2&gt;
+&lt;p&gt;Once our review is complete and we have a list of talks selected for our conference program we will email each speaker to let them know of our decision by &lt;strong&gt;October 10, 2024&lt;/strong&gt; and publicly announce speakers on &lt;strong&gt;November 9, 2024&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;Example of a Bad Proposal&lt;/h2&gt;
+&lt;p&gt;Our Speaker Support Chair, Andres Pineda, will be publishing a blog post on what makes a good proposal.&lt;/p&gt;
+&lt;p&gt;In this post, I’ll focus on what makes a &lt;em&gt;bad proposal&lt;/em&gt; as this can also effectively communicate our selection criteria. Note that this is a completely made-up proposal and does not reflect on any proposals that we have received.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Title&lt;/h3&gt;
+&lt;p&gt;Why You Should Use NumPy!&lt;/p&gt;
+&lt;h3&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;In this talk, I’ll walk through some examples that show why you can improve your data analysis code by using the amazing library NumPy! It’s highly performant, efficient and easy to use (once you get a handle of the basics).&lt;/p&gt;
+&lt;h3&gt;Outline&lt;/h3&gt;
+&lt;p&gt;Here’s an outline of my talk:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Introduction (5 mins)&lt;/li&gt;
+&lt;li&gt;Benefits of Using NumPy (10 mins)&lt;/li&gt;
+&lt;li&gt;Comparison with other packages (5 minutes)&lt;ul&gt;
+&lt;li&gt;If you’re not using NumPy, you don’t know how to work with data!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Coding Walkthrough (5 minutes)&lt;ul&gt;
+&lt;li&gt;I’ll walk through a brief example showing how to use this library effectively.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Notes&lt;/h3&gt;
+&lt;p&gt;You can check out more of my content at my personal blog vishalbakshi.github.io or on Twitter @vishal_learner.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Why do we consider this a “bad” proposal? At first glance it has some good attributes: a relevant topic, a catchy title, a concise and timed outline. One glaring issue is that the speaker has included personally identifiable information in the &lt;strong&gt;Notes&lt;/strong&gt; section. We provide a separate section for that (&lt;strong&gt;Speaker Profile&lt;/strong&gt;) which is hidden from reviewers.&lt;/p&gt;
+&lt;p&gt;Let’s see if we can answer the review questions based on this proposal:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;What is the goal of this talk?&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;The speaker is (understandably) enthusiastic about the NumPy package and wants to show the audience the benefits of using it. So far so good!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Is the outline structured in a way that achieves this goal?&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;It’s unclear what the speaker means by “Benefits of Using NumPy”, “Comparison with Other Packages” or “Coding Walkthrough” without providing a description of those topics. Considering these three sections take up 80% of the talk, we expect concrete details about the content covered during these 20 minutes. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Does it seem reasonable to give this talk within 25 minutes?&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;Not enough information is provided to assess whether the (undisclosed) content in the “Benefits of Using NumPy” and “Comparison with Other Packages” sections is &lt;em&gt;not enough&lt;/em&gt;, &lt;em&gt;enough&lt;/em&gt;, or &lt;em&gt;too much content&lt;/em&gt; to cover in 15 minutes. A 5 minute coding walkthrough is likely not enough to illustrate the use or effectiveness of such a complex library.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Would the conference attendees be interested in this talk?&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;It’s likely that Python users attending the conference will enjoy a talk on NumPy, but only if the talk is substantive (which we can’t determine from the sparse abstract and outline).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Is the content of this talk accurate?&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;We don’t know if the “Benefits of Using NumPy”, “Comparison with Other Packages” or “Coding Walkthrough” are accurate representations of the package’s use as the speaker has not provided enough detail.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Does the content of this talk discriminate, stereotype or exclude any communities?&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;Yes it does. The statement “if you’re not using NumPy, you don’t know how to work with data” is not only incorrect but is disparaging to large swaths of Pythonistas (and people who work with data in general).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As you can see, this proposal misses the mark on a number of criteria. This speaker:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Provides personally identifiable information in the wrong section.&lt;/li&gt;
+&lt;li&gt;Does not provide enough detail in their talk outline.&lt;/li&gt;
+&lt;li&gt;Disparages folks who do not agree with their package preference.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With a few modifications, this could be a highly effective talk on an interesting topic. For example, they could specify a list of 3-5 well-described concrete topics that will illustrate why NumPy is efficient (e.g. broadcasting, optimized C-code, and vectorization) and compare specific patterns with other libraries (e.g. compare runtime between &lt;code&gt;numpy.repeat&lt;/code&gt; vs &lt;code&gt;pandas.Series.repeat&lt;/code&gt;). They could also provide code examples throughout the 25 minutes to allow the audience enough time to get familiar with the syntax and logic presented.&lt;/p&gt;
+&lt;p&gt;We provide speaker support and mentorship to help folks craft effective proposals. If you are interested in receiving this support or volunteering as a mentor, please send an email to &lt;a href="mailto:speaker-support@pycascades.com"&gt;speaker-support@pycascades.com&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;We hope that this blog post gives you a general sense of how we review your talk proposals and what to consider to avoid creating a “bad” proposal. Our goal is to help the Python community curate the best proposals possible, as this will result in a rich and engaging program for the PyCascades 2025 conference.&lt;/p&gt;
+&lt;p&gt;If you have additional questions, please contact our Program Chair, Vishal Bakshi at &lt;a href="mailto:program@pycascades.com"&gt;program@pycascades.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://2025.pycascades.com/program/cfp/"&gt;Our CFP opens on &lt;strong&gt;August 11, 2024&lt;/strong&gt;&lt;/a&gt;. We look forward to your proposals!&lt;/p&gt;
+</content></entry><entry><title>Hello, World</title><link href="https://landing.pycascades.com/news/hello-world/" rel="alternate"/><updated>2024-05-18T00:00:00Z</updated><author><name>Angel &amp; Ben</name></author><id>urn:uuid:9eca4a36-7457-32a2-bc11-bc3191ff5b70</id><content type="html">&lt;p&gt;Next year PyCascades is going to be in Portland, OR. Back at Revolution Hall.
+Make sure you save &lt;em&gt;February 8th and 9th&lt;/em&gt; to join us there for two days of fun
+and learning.&lt;/p&gt;
+&lt;p&gt;If you’re interested in speaking our call for proposals opens August 11th. If
+you’re on the fence we offer proposal and speaker mentoring sessions starting in
+July. If you’d like to join us send an email to
+&lt;a href="mailto:speaker-support@pycascades.com"&gt;speaker-support@pycascades.com&lt;/a&gt;.
+Mentoring sessions do not commit you to submitting a proposal nor do they
+guarantee a speaker spot, but they’ll be fun and informative. Can’t wait to see
+you all there!!  (Well maybe not all 3000 of you, but as many as Rev Hall can
+hold.)&lt;/p&gt;
+</content></entry></feed>
