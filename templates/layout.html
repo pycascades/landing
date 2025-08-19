@@ -47,9 +47,7 @@
     <div class="navbar-menu">
         <div class="navbar-start">
             <div class="navbar-item has-dropdown is-hoverable">
-                <p class="navbar-link">
-                About
-                </p>
+                <a href="{{ '/about'|url }}" class="navbar-link has-text-light">About</a>
 
                 <div class="navbar-dropdown">
                     {% for page in site.query('/about').filter(F.show_in_menu == True).order_by('sort_index', 'name') %}
@@ -58,14 +56,14 @@
                 </div>
             </div>
             <div class="navbar-item has-dropdown is-hoverable">
-                <p class="navbar-link">Conferences</p>
+                <a href="{{ '/past-events'|url }}" class="navbar-link has-text-light">Conferences</a>
                 <div class="navbar-dropdown">
                     {% for year, conf in bag('conferences').items() %}
                         {% if loop.index < 5 %}
-                        <a class="navbar-item" href="https://{{ conf.website }}">{{ year }} - {{ conf.city }}</a>
+                        <a class="navbar-item" href="https://{{ conf.website }}"><div class="icon-text"><span class="icon"><i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></span></div>{{ year }} - {{ conf.city }}</a>
                         {% endif %}
                     {% endfor %}
-                    <a class="navbar-item" href="{{ '/past-events'|url }}">All past events</a>
+                    <a class="navbar-item" href="{{ '/conferences'|url }}">All events</a>
                 </div>
             </div>
             {% if site.get('/news')._hidden == False %}
@@ -73,7 +71,7 @@
             {% endif %}
         {% for year, conference in bag("conferences").items() %}
         {% if conference.upcoming %}
-            <a class="navbar-item navbar-link is-arrowless" href="https://{{conference.website}}">PyCascades {{ year}} is here!</a>
+           <a class="navbar-item navbar-link is-arrowless icon-text" href="https://{{conference.website}}"><span class="icon-text">PyCascades {{ year}} is here!<span class="icon"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></span></span></a>
     {% endif %}
     {% endfor %}
         </div>
