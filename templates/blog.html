@@ -21,7 +21,7 @@
       PyCascades News
     </p>
     <div class="panel-block">
-      Tags:
+        <div class="panel-icon has-text-primary is-vcentered"><span class="fa-solid fa-tags fa-lg"></span></div>
       <div class="tags container is-fluid">
       {% for t in tags -%}
         {% if this.tag is defined and this.tag == t %}
@@ -37,12 +37,12 @@
       {% endfor %}
       </div>
     </div>
-    <p class="panel-block">
-      <span class="panel-icon">
-        <img src="{{ '/static/rssfeed.webp' | asseturl }}" width="35" alt="rss logo" />
-      </span>
-      <a>Subscribe</a>
-    </p>
+    <div class="panel-block">
+        <div class="panel-icon has-text-primary is-vcentered"><span class="fa-solid fa-rss fa-lg"></span></div>
+        <div class="container is-fluid"><a href="{{ '/news@atom/news'|url }}" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed">
+          Subscribe
+        </a></div>
+    </div>
     </article>
 </div>
   <div class="column">
