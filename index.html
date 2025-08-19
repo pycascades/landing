@@ -21,6 +21,7 @@ PyCascades
     </title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="static/style.css?h=d62f7d04"/>
 </head>
 
@@ -35,7 +36,7 @@ PyCascades
             </a>
         </div>
 
-        <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false">
+        <a class="navbar-burger has-text-light" role="button" aria-label="menu" aria-expanded="false">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -46,9 +47,7 @@ PyCascades
     <div class="navbar-menu">
         <div class="navbar-start">
             <div class="navbar-item has-dropdown is-hoverable">
-                <p class="navbar-link">
-                About
-                </p>
+                <a href="about/" class="navbar-link has-text-light">About</a>
 
                 <div class="navbar-dropdown">
                     
@@ -57,27 +56,23 @@ PyCascades
                 </div>
             </div>
             <div class="navbar-item has-dropdown is-hoverable">
-                <p class="navbar-link">Conferences</p>
+                <a href="conferences/" class="navbar-link has-text-light">Conferences</a>
                 <div class="navbar-dropdown">
                     
                         
-                        <a class="navbar-item" href="https://2026.pycascades.com">2026 - Vancouver, BC</a>
+                        <a class="navbar-item" href="https://2026.pycascades.com"><div class="icon-text"><span class="icon"><i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></span></div>2026 - Vancouver, BC</a>
                         
                     
                         
-                        <a class="navbar-item" href="https://2025.pycascades.com">2025 - Portland, OR</a>
+                        <a class="navbar-item" href="https://2025.pycascades.com"><div class="icon-text"><span class="icon"><i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></span></div>2025 - Portland, OR</a>
                         
                     
                         
-                        <a class="navbar-item" href="https://2024.pycascades.com">2024 - Seattle, WA</a>
+                        <a class="navbar-item" href="https://2024.pycascades.com"><div class="icon-text"><span class="icon"><i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></span></div>2024 - Seattle, WA</a>
                         
                     
                         
-                        <a class="navbar-item" href="https://2023.pycascades.com">2023 - Vancouver, BC</a>
-                        
-                    
-                        
-                    
+                        <a class="navbar-item" href="https://2023.pycascades.com"><div class="icon-text"><span class="icon"><i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></span></div>2023 - Vancouver, BC</a>
                         
                     
                         
@@ -86,7 +81,11 @@ PyCascades
                     
                         
                     
-                    <a class="navbar-item" href="past-events/">All past events</a>
+                        
+                    
+                        
+                    
+                    <a class="navbar-item" href="conferences/">All events</a>
                 </div>
             </div>
             
@@ -94,7 +93,7 @@ PyCascades
             
         
         
-            <a class="navbar-item navbar-link is-arrowless" href="https://2026.pycascades.com">PyCascades 2026 is here!</a>
+           <a class="navbar-item navbar-link is-arrowless icon-text" href="https://2026.pycascades.com"><span class="icon-text">PyCascades 2026 is here!<span class="icon"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></span></span></a>
     
     
         
@@ -121,20 +120,18 @@ PyCascades
 <section class="home">
     <section class="hero is-fullheight-with-navbar is-small city-image">
         <div class="hero-body is-fullheight-with-navbar">
-        <div class="columns is-vcentered">
-            <div class="column">
-                <div class="block">
+            <div class="hero-head">
                     <p class="title has-text-light is-2">PyCascades</p>
                     <p class="subtitle has-text-light is-3">Community PyCon for the PNW</p>
-                </div>
             </div>
-            <div class="column box">
-                <div class="block">
+        </div>
+            <section class="hero-foot block has-background-light has-text-dark">
+                <div class="box content">
                 <p>
                     PyCascades is a regional Python software conference in the Pacific Northwest, celebrating the west
                     coast Python developer and user community. </p>
                 <p>
-                    Organized by members of the Python communities in Vancouver, Seattle, and
+                    Organized by members of the Python communities in and around Vancouver, Seattle, and
                     Portland, we aim to bring together Python users and developers from both
                     the Cascade Region and around the world.
                 </p>
@@ -142,10 +139,8 @@ PyCascades
                     The conference occurs each year around early spring, and rotates annually between Vancouver, British Columbia,
                     Seattle, Washington, and Portland, Oregon.
                 </p>
-                </div>
+            </section>
             </div>
-        </div>
-        </div>
     </section>
     </section>
 
@@ -181,21 +176,21 @@ PyCascades
             <div class="columns mt-6">
                 <div class="column">
                     <a href="https://hachyderm.io/@pycascades">
-                        <img src="static/mastodon.svg?h=c4f903f7" width="35" alt="mastodon icon"/>
-                    </a>
+                        <span class="icon has-text-primary"><span class="fa-brands fa-mastodon fa-2xl"></span></span>
                     You can follow us
+                    </a>
                 </div>
                 <div class="column">
-                    <a href="feed.xml">
-                        <img src="static/rssfeed.webp?h=129efd30" width="35" alt="rss icon"/>
+                    <a href="feed.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed">
+                        <span class="icon has-text-primary"><span class="fa-solid fa-rss fa-2xl"></span></span>
+                    Add our news to your feed 
                     </a>
-                    Add our news to your feed
                 </div>
                 <div class="column">
                     <a href="https://join.slack.com/t/pycascades/shared_invite/zt-1l5libchy-RyQi1Kh0PS8DXCfhxhHZhQ">
-                        <img src="static/slack.svg?h=b85a44d8" width="35" alt="slack icon"/>
-                    </a>
+                        <span class="icon has-text-primary"><span class="fa-brands fa-slack fa-2xl"></span></span>
                     Or join our Slack workspace
+                    </a>
                 </div>
             </div>
         </div>
@@ -211,7 +206,7 @@ PyCascades
 </footer>
 
 <div className="mastodon-verification">
-    <a rel="me" href="https://fosstodon.org/@pycascades"></a>
+    <a rel="me" href="https://hachyderm.io/@pycascades"></a>
     
 </div>
 </body>

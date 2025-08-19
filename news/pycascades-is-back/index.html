@@ -19,6 +19,7 @@
     </title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../../static/style.css?h=d62f7d04"/>
 </head>
 
@@ -33,7 +34,7 @@
             </a>
         </div>
 
-        <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false">
+        <a class="navbar-burger has-text-light" role="button" aria-label="menu" aria-expanded="false">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -44,9 +45,7 @@
     <div class="navbar-menu">
         <div class="navbar-start">
             <div class="navbar-item has-dropdown is-hoverable">
-                <p class="navbar-link">
-                About
-                </p>
+                <a href="../../about/" class="navbar-link has-text-light">About</a>
 
                 <div class="navbar-dropdown">
                     
@@ -55,27 +54,23 @@
                 </div>
             </div>
             <div class="navbar-item has-dropdown is-hoverable">
-                <p class="navbar-link">Conferences</p>
+                <a href="../../conferences/" class="navbar-link has-text-light">Conferences</a>
                 <div class="navbar-dropdown">
                     
                         
-                        <a class="navbar-item" href="https://2026.pycascades.com">2026 - Vancouver, BC</a>
+                        <a class="navbar-item" href="https://2026.pycascades.com"><div class="icon-text"><span class="icon"><i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></span></div>2026 - Vancouver, BC</a>
                         
                     
                         
-                        <a class="navbar-item" href="https://2025.pycascades.com">2025 - Portland, OR</a>
+                        <a class="navbar-item" href="https://2025.pycascades.com"><div class="icon-text"><span class="icon"><i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></span></div>2025 - Portland, OR</a>
                         
                     
                         
-                        <a class="navbar-item" href="https://2024.pycascades.com">2024 - Seattle, WA</a>
+                        <a class="navbar-item" href="https://2024.pycascades.com"><div class="icon-text"><span class="icon"><i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></span></div>2024 - Seattle, WA</a>
                         
                     
                         
-                        <a class="navbar-item" href="https://2023.pycascades.com">2023 - Vancouver, BC</a>
-                        
-                    
-                        
-                    
+                        <a class="navbar-item" href="https://2023.pycascades.com"><div class="icon-text"><span class="icon"><i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></span></div>2023 - Vancouver, BC</a>
                         
                     
                         
@@ -84,7 +79,11 @@
                     
                         
                     
-                    <a class="navbar-item" href="../../past-events/">All past events</a>
+                        
+                    
+                        
+                    
+                    <a class="navbar-item" href="../../conferences/">All events</a>
                 </div>
             </div>
             
@@ -92,7 +91,7 @@
             
         
         
-            <a class="navbar-item navbar-link is-arrowless" href="https://2026.pycascades.com">PyCascades 2026 is here!</a>
+           <a class="navbar-item navbar-link is-arrowless icon-text" href="https://2026.pycascades.com"><span class="icon-text">PyCascades 2026 is here!<span class="icon"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></span></span></a>
     
     
         
@@ -204,7 +203,7 @@ Your First Talk Starts Here</p>
 </footer>
 
 <div className="mastodon-verification">
-    <a rel="me" href="https://fosstodon.org/@pycascades"></a>
+    <a rel="me" href="https://hachyderm.io/@pycascades"></a>
     
 </div>
 </body>
