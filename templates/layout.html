@@ -56,7 +56,7 @@
                 </div>
             </div>
             <div class="navbar-item has-dropdown is-hoverable">
-                <a href="{{ '/past-events'|url }}" class="navbar-link has-text-light">Conferences</a>
+                <a href="{{ '/conferences'|url }}" class="navbar-link has-text-light">Conferences</a>
                 <div class="navbar-dropdown">
                     {% for year, conf in bag('conferences').items() %}
                         {% if loop.index < 5 %}
