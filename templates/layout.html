@@ -91,7 +91,7 @@
 </footer>
 
 <div className="mastodon-verification">
-    <a rel="me" href="https://fosstodon.org/@pycascades"></a>
+    <a rel="me" href="https://hachyderm.io/@pycascades"></a>
     {% for organizer in site.query('/about/the-team').include_undiscoverable(true).filter(F.mastodon_url.startswith('https://')) %}
         <a rel="me" href="{{ organizer.mastodon_url }}"></a>
     {% endfor %}
