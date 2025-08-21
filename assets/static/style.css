@@ -56,6 +56,10 @@
     color: var(--pycascades-bright-purple);
 }
 
+.navbar-item.icon-text {
+    white-space: nowrap;
+}
+
 .city-image {
     background-image: url("/static/2018-conference-group-photo.jpg");
     background-size: cover;
@@ -94,6 +98,17 @@
 
 #lektor-edit-link {
     margin-top: 65px !important;
+}
+
+a:link {
+    text-decoration: underline dashed;
+}
+
+a:hover, a:focus {
+    font-weight: bold;
+}
+.navbar a:link {
+    text-decoration: none;
 }
 
 img:hover {
