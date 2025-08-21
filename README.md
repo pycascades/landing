@@ -38,3 +38,20 @@ an upward arrow, or by running:
 $ lektor deploy
 ```
 
+
+## Anchors in pages
+
+Articles using the `page` model can include the `anchors` attribute
+to have a menu bar created with links to each anchor.
+
+The `anchors` attribute should be a list of `id|Human-readable text`, then your
+headings should be defined like below, anchor `my-html-id|Sweet Heading Text`
+```htm
+<div class="heading-wrapper">
+<h3 id="my-html-id">Sweet Heading Text</h3>
+<a href="#my-html-id" class="anchor-link">
+  <span aria-hidden="true" class="fa-solid fa-link anchor-icon"></span>
+  <span class="hidden">Section titled Sweet Heading Text</span>
+  </a>
+</div>
+```
