@@ -22,7 +22,7 @@ PyCascades
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="static/style.css?h=d62f7d04"/>
+    <link rel="stylesheet" href="static/style.css?h=6c95671c"/>
 </head>
 
 <body class="has-navbar-fixed-top">
@@ -51,7 +51,9 @@ PyCascades
 
                 <div class="navbar-dropdown">
                     
+                    <div class="navbar-item">
                         <a class="navbar-item" href="about/code-of-conduct/">Code of Conduct</a>
+                    </div>
                     
                 </div>
             </div>
@@ -60,19 +62,35 @@ PyCascades
                 <div class="navbar-dropdown">
                     
                         
-                        <a class="navbar-item" href="https://2026.pycascades.com"><div class="icon-text"><span class="icon"><i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></span></div>2026 - Vancouver, BC</a>
+                    <div class="navbar-item">
+                        <span class="icon-text">
+                            <a class="navbar-item" href="https://2026.pycascades.com">2026 - Vancouver, BC<span class="icon" aria-hidden="true"><span class="fa-solid fa-arrow-up-right-from-square fa-2xs"></span></span></a>
+                        </span>
+                    </div>
                         
                     
                         
-                        <a class="navbar-item" href="https://2025.pycascades.com"><div class="icon-text"><span class="icon"><i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></span></div>2025 - Portland, OR</a>
+                    <div class="navbar-item">
+                        <span class="icon-text">
+                            <a class="navbar-item" href="https://2025.pycascades.com">2025 - Portland, OR<span class="icon" aria-hidden="true"><span class="fa-solid fa-arrow-up-right-from-square fa-2xs"></span></span></a>
+                        </span>
+                    </div>
                         
                     
                         
-                        <a class="navbar-item" href="https://2024.pycascades.com"><div class="icon-text"><span class="icon"><i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></span></div>2024 - Seattle, WA</a>
+                    <div class="navbar-item">
+                        <span class="icon-text">
+                            <a class="navbar-item" href="https://2024.pycascades.com">2024 - Seattle, WA<span class="icon" aria-hidden="true"><span class="fa-solid fa-arrow-up-right-from-square fa-2xs"></span></span></a>
+                        </span>
+                    </div>
                         
                     
                         
-                        <a class="navbar-item" href="https://2023.pycascades.com"><div class="icon-text"><span class="icon"><i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></span></div>2023 - Vancouver, BC</a>
+                    <div class="navbar-item">
+                        <span class="icon-text">
+                            <a class="navbar-item" href="https://2023.pycascades.com">2023 - Vancouver, BC<span class="icon" aria-hidden="true"><span class="fa-solid fa-arrow-up-right-from-square fa-2xs"></span></span></a>
+                        </span>
+                    </div>
                         
                     
                         
@@ -85,11 +103,15 @@ PyCascades
                     
                         
                     
-                    <a class="navbar-item" href="conferences/">All events</a>
+                    <div class="navbar-item">
+                        <a class="navbar-item" href="conferences/">All events</a>
+                    </div>
                 </div>
             </div>
             
-                <a class="navbar-item navbar-link is-arrowless" href="news/">News</a>
+            <div class="navbar-item">
+                <a class="navbar-link is-arrowless" href="news/">News</a>
+            </div>
             
         
         
@@ -127,73 +149,74 @@ PyCascades
         </div>
             <section class="hero-foot block has-background-light has-text-dark">
                 <div class="box content">
-                <p>
-                    PyCascades is a regional Python software conference in the Pacific Northwest, celebrating the west
-                    coast Python developer and user community. </p>
-                <p>
-                    Organized by members of the Python communities in and around Vancouver, Seattle, and
-                    Portland, we aim to bring together Python users and developers from both
-                    the Cascade Region and around the world.
-                </p>
-                <p>
-                    The conference occurs each year around early spring, and rotates annually between Vancouver, British Columbia,
-                    Seattle, Washington, and Portland, Oregon.
-                </p>
+                    <p>
+                        PyCascades is a regional Python software conference in the Pacific Northwest, celebrating the west
+                        coast Python developer and user community.
+                    </p>
+                    <p>
+                        Organized by members of the Python communities in and around Vancouver, Seattle, and
+                        Portland, we aim to bring together Python users and developers from both
+                        the Cascade Region and around the world.
+                    </p>
+                    <p>
+                        The conference occurs each year around early spring, and rotates annually between Vancouver, British Columbia,
+                        Seattle, Washington, and Portland, Oregon.
+                    </p>
+                </div>
             </section>
-            </div>
     </section>
-    </section>
+</section>
 
-    <section class="hero is-medium">
-        <div class="hero-body">
-            <div class="mailing-list block">
-                <h4 class="title is-4">Keep in touch!</h4>
-                <p class="block">
-                    Join our newsletter to hear the latest news as soon as we announce them.
-                </p>
-                <p class="block">
-                    We promise, we won't overload your inbox. (Fewer than 10 emails per year)
-                </p>
-                <form
-                    action="https://buttondown.com/api/emails/embed-subscribe/pycascades"
-                    method="post"
-                    target="popupwindow"
-                    onsubmit="window.open('https://newsletter.pycascades.com', 'popupwindow')"
-                    class="embeddable-buttondown-form">
-                    <div class="field has-addons">
-                        <div class="control is-expanded">
-                            <input class="input" id="bd-email" type="email" name="email" value="" placeholder="Your Email"
-                                required="required">
-                        </div>
-                        <div class="control">
-                            <button class="button is-primary" type="submit"><i class="fa-solid fa-paper-plane"></i>
-                                Subscribe
-                            </button>
-                        </div>
+<section class="hero is-medium">
+    <div class="hero-body">
+        <div class="mailing-list block">
+            <h4 class="title is-4">Keep in touch!</h4>
+            <p class="block">
+                Join our newsletter to hear the latest news as soon as it's announced!.
+            </p>
+            <p class="block">
+                We promise, we won't overload your inbox. (Fewer than 10 emails per year)
+            </p>
+            <form
+                action="https://buttondown.com/api/emails/embed-subscribe/pycascades"
+                method="post"
+                target="popupwindow"
+                onsubmit="window.open('https://newsletter.pycascades.com', 'popupwindow')"
+                class="embeddable-buttondown-form">
+                <div class="field has-addons">
+                    <div class="control is-expanded">
+                        <input class="input" id="bd-email" type="email" name="email" value="" placeholder="Your Email"
+                            required="required">
                     </div>
-                </form>
+                    <div class="control">
+                        <button class="button is-primary" type="submit"><i class="fa-solid fa-paper-plane"></i>
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="columns mt-6">
+            <div class="column icon-text">
+                <span class="icon has-text-primary" aria-hidden="true"><span class="fa-brands fa-mastodon fa-2xl">&nbsp;</span></span>
+                <a href="https://hachyderm.io/@pycascades">
+                Follow us on Mastodon
+                </a>
             </div>
-            <div class="columns mt-6">
-                <div class="column">
-                    <a href="https://hachyderm.io/@pycascades">
-                        <span class="icon has-text-primary"><span class="fa-brands fa-mastodon fa-2xl"></span></span>
-                    You can follow us
-                    </a>
-                </div>
-                <div class="column">
-                    <a href="feed.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed">
-                        <span class="icon has-text-primary"><span class="fa-solid fa-rss fa-2xl"></span></span>
-                    Add our news to your feed 
-                    </a>
-                </div>
-                <div class="column">
-                    <a href="https://join.slack.com/t/pycascades/shared_invite/zt-1l5libchy-RyQi1Kh0PS8DXCfhxhHZhQ">
-                        <span class="icon has-text-primary"><span class="fa-brands fa-slack fa-2xl"></span></span>
-                    Or join our Slack workspace
-                    </a>
-                </div>
+            <div class="column icon-text">
+                <span class="icon has-text-primary" aria-hidden="true"><span class="fa-solid fa-rss fa-2xl">&nbsp;</span></span>
+                <a href="feed.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed">
+                Add our news to your RSS feed 
+                </a>
+            </div>
+            <div class="column icon-text">
+                <span class="icon has-text-primary" aria-hidden="true"><span class="fa-brands fa-slack fa-2xl">&nbsp;</span></span>
+                <a href="https://join.slack.com/t/pycascades/shared_invite/zt-1l5libchy-RyQi1Kh0PS8DXCfhxhHZhQ">
+                Join our Slack workspace
+                </a>
             </div>
         </div>
+    </div>
 </section>
 
 
@@ -206,7 +229,7 @@ PyCascades
 </footer>
 
 <div className="mastodon-verification">
-    <a rel="me" href="https://hachyderm.io/@pycascades"></a>
+    <a rel="me" href="https://hachyderm.io/@pycascades" aria-ignore="true" tabindex="-1"></a>
     
 </div>
 </body>
