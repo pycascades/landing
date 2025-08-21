@@ -60,6 +60,34 @@
     white-space: nowrap;
 }
 
+html{
+    scroll-padding-top: var(--bulma-navbar-height);
+}
+.heading-wrapper.h3{
+    display: inline;
+}
+.anchor-link {
+    display: inline-block;
+    right: 100%;
+    top: 3px;
+}
+.anchor-icon {
+    position: relative;
+    left: -1.25em;
+    top: -2.5em;
+}
+
+.hidden {
+    border-width: 0 !important;
+    clip: rect(1px,1px,1px,1px) !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    white-space: nowrap !important;
+    width: 1px !important;
+}
+
 .city-image {
     background-image: url("/static/2018-conference-group-photo.jpg");
     background-size: cover;
