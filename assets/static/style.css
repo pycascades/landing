@@ -129,7 +129,7 @@ html{
 }
 
 a:link {
-    text-decoration: underline dashed;
+    text-decoration: underline;
 }
 
 a:hover, a:focus {
