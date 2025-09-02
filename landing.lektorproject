@@ -1,12 +1,12 @@
 [project]
 name = landing
-url = https://landing.pycascades.com
+url = https://www.pycascades.com
 
 [servers.ghpages]
 name = Production
 enabled = false
 default = yes
-target = ghpages://pycascades/landing?cname=landing.pycascades.com
+target = ghpages://pycascades/landing?cname=www.pycascades.com
 
 [packages]
 lektor-tags = 0.5.2
