@@ -9,7 +9,8 @@ This repo manages content shared between years:
 - blog/news
 - rss for blog
 
-Each year's homepage is hosted under www.pycascades.com/<year>,
+### future state
+We think we want to host each year's homepage is under www.pycascades.com/<year>,
 for example www.pycascades.com/2026.
 
 
@@ -55,3 +56,25 @@ headings should be defined like below, anchor `my-html-id|Sweet Heading Text`
   </a>
 </div>
 ```
+
+## testing accessibility with Axe
+
+We're using [axe-core](https://www.deque.com/axe/) to do basic usability testing.
+Thanks to PyBay for inspiration on this.
+The way it works is:
+1. we make a temporary directory (once per pytest invocation)
+1. we make Lektor build into the temportary directory
+1. we start up a web server
+1. we point playwright + axe at our webserver
+1. we assert that there are zero warnings
+
+### So our site is accessible, right?
+
+This kind of testing is the bare minimum, and we should look for ways to improve, 
+especially if we can engage accessibility specialists and folks who primarily 
+browse the web with screen readers
+
+### running locally
+The `uv` way:
+1. uvx --with-requirements tests/requirements.txt playwright install  # this only needs to be done once
+1. uvx --with-requirements tests/requirements.txt pytest

@@ -13,7 +13,8 @@
   {% set tags = this.parent.children.distinct("tags") %}
   {% set posts = this.items %}
 {% endif %}
-<section class="section">
+<main class="section">
+<h1 class="is-1">PyCascades News</h1>
 <div class="columns">
 <div class="column is-one-quarter">
   <article class="panel">
@@ -51,7 +52,7 @@
       {% endfor %}
   </div>
 </div>
-</section>
+</main>
 {% if this.pagination is defined  %}
   {{ render_pagination(this.pagination) }}
 {% endif %}

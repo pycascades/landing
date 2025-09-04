@@ -6,7 +6,7 @@ show_in_menu: yes
 ---
 body:
 
-### Commitment to diversity and inclusion
+## Commitment to diversity and inclusion
 
 Our goal is to create an inclusive, respectful conference environment that invites participation from people of all races, ethnicities, genders, ages, abilities, religions, and sexual orientations. PyCascades and its organizers, volunteers, and staff fully support and endorse the [Python Software Foundation's diversity statement](https://www.python.org/psf/diversity/):
 
