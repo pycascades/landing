@@ -19,7 +19,7 @@ env:
     &&
     github.ref == 'refs/heads/main'
     }}
-  OUTPUT: ../_site
+  OUTPUT: _site
 
 jobs:
   build:
