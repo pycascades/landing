@@ -13,14 +13,9 @@
   {% set tags = this.parent.children.distinct("tags") %}
   {% set posts = this.items %}
 {% endif %}
-<main class="section">
+<main class="section content">
 <h1 class="is-1">PyCascades News</h1>
-<div class="columns">
-<div class="column is-one-quarter">
-  <article class="panel">
-    <p class="panel-heading is-primary">
-      PyCascades News
-    </p>
+  <nav class="panel container is-max-tablet">
     <div class="panel-block">
         <div class="panel-icon has-text-primary is-vcentered"><span class="fa-solid fa-tags fa-lg"></span></div>
       <div class="tags container is-fluid">
@@ -44,14 +39,10 @@
           Subscribe
         </a></div>
     </div>
-    </article>
-</div>
-  <div class="column">
+  </nav>
       {% for child in posts %}
         {{ render_blog_post(child, from_index=true) }}
       {% endfor %}
-  </div>
-</div>
 </main>
 {% if this.pagination is defined  %}
   {{ render_pagination(this.pagination) }}
