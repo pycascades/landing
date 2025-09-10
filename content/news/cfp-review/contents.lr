@@ -5,7 +5,7 @@ author: Vishal
 tags:
 cfp
 ---
-pub_date: 2024-07-15
+pub_date: 2025-09-09
 ---
 intro:
 
@@ -13,13 +13,9 @@ Curious about how we review proposals? In this blog post, we'll share our review
 ---
 body:
 
-You can view our video about the PyCascades 2025 Proposal Review Process which contains the same information as this blog post:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7bk3kLotB48?si=oPs7Bv7Zn0HzDp61" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 ## Introduction
 
-[Our CFP (Call for Proposals) opens on **Sunday, August 11, 2024**](https://2025.pycascades.com/program/cfp/) and will close on **September 20, 2024**. During our proposal review process, We usually have 4-6 volunteers (plus one of our co-Chairs and the Program Chair) who review and discuss every one of the talks submitted for consideration. 
+Our CfP (Call for Proposals) opens on **Monday, September 22, 2025** and will close on **Monday, October 27, 2025 [AoE](https://www.timeanddate.com/worldclock/fixedtime.html?msg=PyCascades+2026+Call+for+Proposals+Deadline&iso=20251027T2359&p1=3926)**. During our proposal review process, We usually have 4-6 volunteers/organizers who review and discuss every one of the talks submitted for consideration. This year we are accepting talks of either 25 minutes <mark>or 40 minutes</mark> in length!
 
 ## The Proposal Review Process
 
@@ -33,7 +29,7 @@ Generally speaking, we look to see that the speaker has provided enough detail f
 
 1. What is the goal of this talk?
 2. Is the outline structured in a way that achieves this goal?
-3. Does it seem reasonable to give this talk within 25 minutes?
+3. Does it seem reasonable to give this talk within 25 minutes or 40 minutes?
 4. Would the conference attendees be interested in this talk?
 5. Is the content of this talk accurate? 
 6. Does the content of this talk discriminate, stereotype or exclude any communities?
@@ -42,13 +38,11 @@ As you can imagine, much of this evaluation is subjective and prone to different
 
 ## What Happens After the Review is Complete?
 
-Once our review is complete and we have a list of talks selected for our conference program we will email each speaker to let them know of our decision by **October 10, 2024** and publicly announce speakers on **November 9, 2024**.
+Once our review is complete and we have a list of talks selected for our conference program we will email each speaker to let them know of our decision **the week of November 21, 2025** and publicly announce speakers on **December 21, 2025**.
 
 ## Example of a Bad Proposal
 
-Our Speaker Support Chair, Andres Pineda, will be publishing a blog post on what makes a good proposal.
-
-In this post, I’ll focus on what makes a _bad proposal_ as this can also effectively communicate our selection criteria. Note that this is a completely made-up proposal and does not reflect on any proposals that we have received.
+Note that this is a completely made-up proposal and does not reflect on any proposals that we have received.
 
 ------
 
@@ -62,7 +56,7 @@ In this talk, I’ll walk through some examples that show why you can improve yo
 
 ### Outline
 
-Here’s an outline of my talk:
+Here’s an outline of my talk (25 minutes):
 
 1. Introduction (5 mins)
 2. Benefits of Using NumPy (10 mins)
@@ -77,22 +71,22 @@ You can check out more of my content at my personal blog vishalbakshi.github.io 
 
 ------
 
-Why do we consider this a “bad” proposal? At first glance it has some good attributes: a relevant topic, a catchy title, a concise and timed outline. One glaring issue is that the speaker has included personally identifiable information in the **Notes** section. We provide a separate section for that (**Speaker Profile**) which is hidden from reviewers.
+Why do we consider this a "bad" proposal? At first glance it has some good attributes: a relevant topic, a catchy title, a concise and timed outline. One glaring issue is that the speaker has included personally identifiable information in the **Notes** section. We provide a separate section for that (**Speaker Profile**) which is hidden from reviewers.
 
 Let’s see if we can answer the review questions based on this proposal:
 
 1. **What is the goal of this talk?**
     - The speaker is (understandably) enthusiastic about the NumPy package and wants to show the audience the benefits of using it. So far so good!
 2. **Is the outline structured in a way that achieves this goal?**
-    - It’s unclear what the speaker means by “Benefits of Using NumPy”, “Comparison with Other Packages” or “Coding Walkthrough” without providing a description of those topics. Considering these three sections take up 80% of the talk, we expect concrete details about the content covered during these 20 minutes. 
+    - It’s unclear what the speaker means by "Benefits of Using NumPy", "Comparison with Other Packages" or "Coding Walkthrough" without providing a description of those topics. Considering these three sections take up 80% of the talk, we expect concrete details about the content covered during these 20 minutes. 
 3. **Does it seem reasonable to give this talk within 25 minutes?**
-    - Not enough information is provided to assess whether the (undisclosed) content in the “Benefits of Using NumPy” and “Comparison with Other Packages” sections is _not enough_, _enough_, or _too much content_ to cover in 15 minutes. A 5 minute coding walkthrough is likely not enough to illustrate the use or effectiveness of such a complex library.
+    - Not enough information is provided to assess whether the (undisclosed) content in the "Benefits of Using NumPy" and "Comparison with Other Packages" sections is _not enough_, _enough_, or _too much content_ to cover in 15 minutes. A 5 minute coding walkthrough is likely not enough to illustrate the use or effectiveness of such a complex library.
 4. **Would the conference attendees be interested in this talk?**
     - It’s likely that Python users attending the conference will enjoy a talk on NumPy, but only if the talk is substantive (which we can’t determine from the sparse abstract and outline).
 5. **Is the content of this talk accurate?**
-    - We don’t know if the “Benefits of Using NumPy”, “Comparison with Other Packages” or “Coding Walkthrough” are accurate representations of the package’s use as the speaker has not provided enough detail.
+    - We don’t know if the "Benefits of Using NumPy", "Comparison with Other Packages" or "Coding Walkthrough" are accurate representations of the package’s use as the speaker has not provided enough detail.
 6. **Does the content of this talk discriminate, stereotype or exclude any communities?**
-    - Yes it does. The statement “if you’re not using NumPy, you don’t know how to work with data” is not only incorrect but is disparaging to large swaths of Pythonistas (and people who work with data in general).
+    - Yes it does. The statement "if you’re not using NumPy, you don’t know how to work with data" is not only incorrect but is disparaging to large swaths of Pythonistas (and people who work with data in general).
 
 As you can see, this proposal misses the mark on a number of criteria. This speaker:
 
@@ -106,8 +100,8 @@ We provide speaker support and mentorship to help folks craft effective proposal
 
 ## Conclusion
 
-We hope that this blog post gives you a general sense of how we review your talk proposals and what to consider to avoid creating a “bad” proposal. Our goal is to help the Python community curate the best proposals possible, as this will result in a rich and engaging program for the PyCascades 2025 conference. 
+We hope that this blog post gives you a general sense of how we review your talk proposals and what to consider to avoid creating a "bad" proposal. Our goal is to help the Python community curate the best proposals possible, as this will result in a rich and engaging program for the PyCascades 2026 conference. 
 
 If you have additional questions, please contact our Program Chair, Vishal Bakshi at <a href="mailto:program@pycascades.com">program@pycascades.com</a>.
 
-[Our CFP opens on **August 11, 2024**](https://2025.pycascades.com/program/cfp/). We look forward to your proposals!
+Our CfP opens on **Monday, September 22, 2025**. We look forward to your proposals!
