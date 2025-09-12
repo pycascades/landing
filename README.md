@@ -31,13 +31,10 @@ to reach the admin page.
 
 ## Deployment
 
-The site lives on Github Pages. Deployments can be triggered from the browser
-by navigating to the admin page, then clicking the icon of the cloud with
-an upward arrow, or by running:
-
-```
-$ lektor deploy
-```
+The site lives on Github Pages and is deployed from `main` via Github Actions.
+Any new commit to the `main` branch (e.g, a push or pr merge) automatically deploys.
+If you need to redeploy, for instance if we start dynamically pulling from external 
+sources in the future, you can also manually deploy via the Github Actions web UI.
 
 
 ## Anchors in pages
