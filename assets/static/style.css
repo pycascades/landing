@@ -172,3 +172,7 @@ img:hover {
     align-items: center;
     gap: 16px;
 }
+
+a .icon {
+    text-decoration: none;
+}
