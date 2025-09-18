@@ -36,6 +36,8 @@ Generally speaking, we look to see that the speaker has provided enough detail f
 
 As you can imagine, much of this evaluation is subjective and prone to different biases that our reviewers hold. For this reason, we like to have a diverse set of volunteers reviewing the proposals. If you are interested in being a reviewer, please email <a href="mailto:program@pycascades.com">program@pycascades.com</a>.
 
+Focus on technologies and systems rather than brands and services. Our audience and reviewers tend to be very sensitive to talks that feel more like a sales pitch than a tech talk. Presenters are welcome to mention their company, but the core of the talk should be brand-agnostic or applicable to open tooling. For a positive example, [this talk from 2025](https://youtu.be/5CrmK2dwbRA). The speaker talks about Streamlit, which is a product from Snowflake. Critically, though, she focuses on the free and open-source parts to the technology (the streamlit library) and not on the paid portions (the hosting service). It's also helpful that she provided a totally-free alternative as a comparison.
+
 ## What Happens After the Review is Complete?
 
 Once our review is complete and we have a list of talks selected for our conference program we will email each speaker to let them know of our decision **the week of November 21, 2025** and publicly announce speakers on **December 21, 2025**.
