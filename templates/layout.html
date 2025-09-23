@@ -75,9 +75,7 @@
                 </div>
             </div>
             {% if site.get('/news')._hidden == False %}
-            <div class="navbar-item">
-                <a class="navbar-link is-arrowless" href="{{ '/news'|url }}">News</a>
-            </div>
+                <a class="navbar-item is-arrowless" href="{{ '/news'|url }}">News</a>
             {% endif %}
         {% for year, conference in bag("conferences").items() %}
         {% if conference.upcoming %}
