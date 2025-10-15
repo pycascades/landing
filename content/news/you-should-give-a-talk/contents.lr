@@ -1,0 +1,33 @@
+title: You Should Give A Talk
+---
+author: Ben Berry
+---
+body:
+
+
+There are a bunch of personal benefits to presenting at a software conference. It can look great on a resume, especially if you’re looking to move into a more senior role. Giving talks shows that you’re engaged with the current landscape, that you’re a thoughtful communicator, and that you proactively share knowledge.
+
+## Learning by Teaching
+
+Talks give a great opportunity to grow. Obviously, you should have some experience with your topic before submitting your talk, but you don't have to be 100% ready to sit down and write your slides. Writing a conference talk involves some research, so it's a great chance to grow your skills. Beyond forcing you to do a bit more research, teaching something is a great way to reinforce and grow your skills. You'll consider different perspectives as you find better ways to explain concepts, challenge your own thinking while drafting slides, and make new connections as you reorganize content.
+
+## Connect with the Community
+
+When you give a talk at a conference, it invites a certain level of engagement with conference attendees. This can be great for folks who are energized by social interactions, but it can also be advantageous if you're more introverted. Once you've given a talk about your specific topic, the people who approach you will largely do so to talk about that topic. If you spend 30 minutes explaining your cool testing trick, most of the conversations folks start with you are going to be something like "hey, cool testing trick\! I know how I can apply that at work\!" or "I had a question about this aspect of your testing trick \- can you walk me through it?"
+
+## Grow Your Career
+
+Speaking publicly can help in your current role, and can help you find your next position. Conference presentations look great on your resume, and also provide an opportunity to highlight skills you don't get to show off at work. Maybe your day job is all terraform and YAML, but you wrote a sweet django plugin for a hobby, or you're a backend developer with a secret wealth of CSS knowledge. By presenting on these, you can clarify your knowledge and experience for your next interview. If you're currently employed, your employer might also love for you to give a talk because it helps them with recruiting, brand awareness, and overall sentiment. Often, this means you can make a better case to your employer for why they should give you the time and resources to attend the conference. 
+
+Hopefully you're now excited to give your next conference talk. If so, you can hop over to our [Pretalx page](https://pretalx.com/pycascades-2026/cfp) to submit your proposal. If you have any questions or need any help, feel free to reach out to [speaker-support@pycascades.com](mailto:speaker-support@pycascades.com).
+
+
+
+---
+intro:
+
+You – yes, you! The one reading this – should give a talk at a meetup or conference. 
+---
+pub_date: 2025-10-14
+---
+tags: cfp
