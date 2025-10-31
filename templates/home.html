@@ -7,78 +7,88 @@
 
 {% block body %}
 <main class="home">
-    <section class="hero is-fullheight-with-navbar is-small city-image">
-        <div class="hero-body is-fullheight-with-navbar">
-            <div class="hero-head">
-                    <h1 class="title has-text-light is-1">PyCascades</h1>
-                    <h2 class="subtitle has-text-light is-2">Community PyCon for the PNW</h2>
-            </div>
+    <section class="hero is-large city-image">
+        <div class="hero-body">
+            <h1 class="title has-text-light is-1">PyCascades</h1>
+            <h2 class="subtitle has-text-light is-2">Community PyCon for the PNW</h2>
         </div>
-            <section class="hero-foot block has-background-light has-text-dark">
-                <div class="box content">
-                    <p>
-                        PyCascades is a regional Python software conference in the Pacific Northwest, celebrating the west
-                        coast Python developer and user community.
-                    </p>
-                    <p>
-                        Organized by members of the Python communities in and around Vancouver, Seattle, and
-                        Portland, we aim to bring together Python users and developers from both
-                        the Cascade Region and around the world.
-                    </p>
-                    <p>
-                        The conference occurs each year around early spring, and rotates annually between Vancouver, British Columbia,
-                        Seattle, Washington, and Portland, Oregon.
-                    </p>
-                </div>
-            </section>
     </section>
-</section>
-<section class="hero is-medium">
-    <div class="hero-body">
-        <div class="mailing-list block">
-            <h3 class="title is-3">Keep in touch!</h3>
-            <p class="block">
-                Join our newsletter to hear the latest news as soon as it's announced!
-            </p>
-            <p class="block">
-                We promise, we won't overload your inbox. (Fewer than 10 emails per year)
-            </p>
-            <form
-                action="https://buttondown.com/api/emails/embed-subscribe/pycascades"
-                method="post"
-                target="popupwindow"
-                onsubmit="window.open('https://newsletter.pycascades.com', 'popupwindow')"
-                class="embeddable-buttondown-form">
-                <div class="field has-addons">
-                    <div class="control is-expanded">
-                        <input class="input" id="bd-email" type="email" name="email" value="" placeholder="Your Email" required="required">
-                    </div>
-                    <div class="control">
-                        <button class="button is-primary" type="submit"><i class="fa-solid fa-paper-plane"></i>
-                            Subscribe
-                        </button>
+
+    <section class="hero is-medium info">
+        <div class="hero-body has-text-white">
+            <div class="columns">
+                <div class="column">
+                    <div class="content">
+                        <p>
+                            PyCascades is a regional Python software conference in the Pacific Northwest, celebrating the west
+                            coast Python developer and user community.
+                        </p>
+
+                        <p>
+                            Organized by members of the Python communities in and around Vancouver, Seattle, and
+                            Portland, we aim to bring together Python users and developers from both
+                            the Cascade Region and around the world.
+                        </p>
                     </div>
                 </div>
-            </form>
-        </div>
-        <div class="level has-text-centered mt-4">
-            <div class="level-item">
-                <a href="https://hachyderm.io/@pycascades">
-                <span class="icon has-text-primary" aria-hidden="true"><span class="fa-brands fa-mastodon fa-xl" ></span>&nbsp;&nbsp;&nbsp;</span>Follow us on Mastodon
-                </a>
-            </div>
-            <div class="level-item">
-                <a href="{{ '/news@atom/news'|url }}" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed">
-                <span class="icon has-text-primary" aria-hidden="true"><span class="fa-solid fa-rss fa-xl"></span>&nbsp;&nbsp;&nbsp;</span>Add us to your RSS feed
-                </a>
-            </div>
-            <div class="level-item"> 
-                <a href="https://join.slack.com/t/pycascades/shared_invite/zt-1l5libchy-RyQi1Kh0PS8DXCfhxhHZhQ">
-                <span class="icon has-text-primary" aria-hidden="true"><span class="fa-brands fa-slack fa-xl"></span>&nbsp;&nbsp;&nbsp;</span>Join us on Slack
-                </a>
+                <div class="column">
+                    <div class="content">
+                        <p>
+                            The conference occurs each year around early spring, and rotates annually between Vancouver, British Columbia,
+                            Seattle, Washington, and Portland, Oregon.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <section class="hero is-medium">
+        <div class="hero-body">
+            <div class="mailing-list block">
+                <h3 class="title is-3">Keep in touch!</h3>
+                <p class="block">
+                    Join our newsletter to hear the latest news as soon as it's announced!
+                </p>
+                <p class="block">
+                    We promise, we won't overload your inbox. (Fewer than 10 emails per year)
+                </p>
+                <form
+                    action="https://buttondown.com/api/emails/embed-subscribe/pycascades"
+                    method="post"
+                    target="popupwindow"
+                    onsubmit="window.open('https://newsletter.pycascades.com', 'popupwindow')"
+                    class="embeddable-buttondown-form">
+                    <div class="field has-addons">
+                        <div class="control is-expanded">
+                            <input class="input" id="bd-email" type="email" name="email" value="" placeholder="Your Email" required="required">
+                        </div>
+                        <div class="control">
+                            <button class="button is-primary" type="submit"><i class="fa-solid fa-paper-plane"></i>
+                                Subscribe
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="level has-text-centered mt-4">
+                <div class="level-item">
+                    <a href="https://hachyderm.io/@pycascades">
+                    <span class="icon has-text-primary" aria-hidden="true"><span class="fa-brands fa-mastodon fa-xl" ></span>&nbsp;&nbsp;&nbsp;</span>Follow us on Mastodon
+                    </a>
+                </div>
+                <div class="level-item">
+                    <a href="{{ '/news@atom/news'|url }}" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed">
+                    <span class="icon has-text-primary" aria-hidden="true"><span class="fa-solid fa-rss fa-xl"></span>&nbsp;&nbsp;&nbsp;</span>Add us to your RSS feed
+                    </a>
+                </div>
+                <div class="level-item"> 
+                    <a href="https://join.slack.com/t/pycascades/shared_invite/zt-1l5libchy-RyQi1Kh0PS8DXCfhxhHZhQ">
+                    <span class="icon has-text-primary" aria-hidden="true"><span class="fa-brands fa-slack fa-xl"></span>&nbsp;&nbsp;&nbsp;</span>Join us on Slack
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 {% endblock %}
