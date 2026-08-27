@@ -1,4 +1,11 @@
 {
+    "2027": {
+        "city": "Seattle, WA",
+        "upcoming": true,
+        "tickets_available": false,
+        "website": "2027.pycascades.com",
+        "dates": "March 20th-21st, 2027"
+    },
     "2026": {
 "city": "Vancouver, BC",
 "upcoming": true,
